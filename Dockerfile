@@ -1,4 +1,4 @@
-FROM akeme26/akeme26/simple-k8s:Base_image2
+FROM akeme26/simple-k8s:Base_image2
 
 WORKDIR /app
 
