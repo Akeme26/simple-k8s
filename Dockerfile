@@ -1,6 +1,6 @@
-FROM akeme26/slow-node-base:BASE
+FROM akeme26/akeme26/simple-k8s:Base_image2
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
 COPY package*.json ./
 
@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ["node", "server.js"]
+CMD ["server.js"]
